@@ -5,7 +5,7 @@ This assignment is due by 11.55 pm on September 20, 2020. For each additional da
 ## Please read the following important instructions before getting started on the assignment.
 1. This assignment should be completed individually.
 2. This assignment is entirely programming-based and is hosted as a Kaggle competition. Please refer to Moodle Announcement for further instructions on how to access the Kaggle competition.
-3. Please signup on Kaggle using your IITB LDAP email accounts, with usernames as your roll number. 
+3. Please signup on Kaggle using your IITB LDAP email accounts, with kaggle-username as your roll number. 
 
 
 ## Learning linear predictors
