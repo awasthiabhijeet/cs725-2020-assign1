@@ -90,7 +90,7 @@ Your goal would be to build a linear regression model to predict the number of s
 	- Analytical solution for L2-regularized linear regression that minimizes mean squared error function. (taught in lecture 4b)
 	- An iterative solution using gradient descent for L2-regularized linear regression that minimizes mean squared error function (taught in lecture 4c)
 
-3. [LR.py](https://github.com/awasthiabhijeet/cs725-2020-assign1/blob/master/cs725_assignment_1/LR.py) in the GitHub repository contains the starter code. You simply need to fill in the code inside various functions. Please carefully read the comments inside the body of each function 
+3. [LR.py](https://github.com/awasthiabhijeet/cs725-2020-assign1/blob/master/LR.py) in the GitHub repository contains the starter code. You simply need to fill in the code inside various functions. Please carefully read the comments inside the body of each function 
 
 4. Please do not modify argument list of functions defined in LR.py unless stated explicitly inside the comments inside the function body.
 
