@@ -55,14 +55,14 @@ def analytical_solution(feature_matrix, targets, C=0.0):
     '''
     Description:
     implement analytical solution to obtain weights
-    as described in lecture 4b
+    as described in lecture 5d
     return value: numpy array
     '''
 
     '''
     Arguments:
     feature_matrix: numpy array of shape m x n
-    weights: numpy array of shape m x 1
+    targets: numpy array of shape m x 1
     '''
 
     raise NotImplementedError 
