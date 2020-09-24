@@ -116,7 +116,7 @@ Tip: You will find it useful to apply some form of feature scaling to your input
 2. Submit your predictions on Kaggle before the deadline.
 3. Please do not modify argument list of functions unless mentioned in the comments inside the function body.
 4. Particularly, we will be unable to evaluate your code incase you modify the argument list of `analytical_solution` and `compute_gradients` functions in LR.py. (i.e.  do not add additional arguments / remove existing arguments from these two functions.)
-5. Successful submission of the assignment would include: (A) Submitting <roll_no>.tgz on Moodle and (B) Having your roll number appear on the Kaggle leaderboard.
+5. Successful submission of the assignment would include: (A) Submitting <roll_no>.tar.xz on Moodle and (B) Having your roll number appear on the Kaggle leaderboard.
 
 ### Help
 * For any queries regarding the code/problem-statement please raise an issue on GitHub repository itself.
