@@ -26,7 +26,7 @@ def test_case_1():
 
 	gradients_2 = compute_gradients(feature_matrix=features, weights=np.zeros([3,1]), targets=targets, C=0.0)
 	#print(gradients_2)
-	true_gradients_2 = -2/3 * targets
+	true_gradients_2 = -2.0/3 * targets
 	check_gradients_2 = is_close(true_gradients_2,gradients_2)
 	#print(check_gradients_1)
 	#print(check_gradients_2)
