@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 np.random.seed(42)
 
 
-class MinMaxScaler():
+class Scaler():
     # hint: https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/
     def __init__(self):
         self.min=None
@@ -286,7 +286,7 @@ def do_evaluation(feature_matrix, targets, weights):
     return loss
 
 if __name__ == '__main__':
-    scaler = MinMaxScaler()
+    scaler = Scaler()
     train_features, train_targets = get_features('data/train.csv',True,scaler), get_targets('data/train.csv')
     dev_features, dev_targets = get_features('data/dev.csv',False,scaler), get_targets('data/dev.csv')
     test_features, test_targets = get_features('data/test.csv',False,scaler), get_targets('data/test.csv')
