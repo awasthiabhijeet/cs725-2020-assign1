@@ -173,9 +173,9 @@ def compute_gradients(feature_matrix, weights, targets, C=0.0):
     return value: numpy array
     '''
     m,n = feature_matrix.shape
-    temp_1 = np.matmul(feature_matrix.T, (np.matmul(feature_matrix,weights)-targets))
-    temp_2 = C * weights
-    grad = (2 * (temp_1 + temp_2))/m
+    temp_1 = 2 * np.matmul(feature_matrix.T, (np.matmul(feature_matrix,weights)-targets))
+    temp_2 = 2 * C * weights
+    grad = (1.0 * temp_1/m) + temp_2
     return grad
 
 def sample_random_batch(feature_matrix, targets, batch_size):
